@@ -2,22 +2,23 @@ body {
 	overflow: hidden;
 	margin: 0 auto;
 	background-color: #000000;
+	cursor: crosshair;
 }
 .background {
 	position: absolute;
 	z-index: 1;
-	padding-left: 7.30%;
+	width: 100%;
 }
-button {
-	background-image: url("../images/duck.gif");
+#duck {
+	/*background-image: url("../images/duck.gif");*/
 	position: relative;
 	z-index: 2;
-	margin-left: 42%;
+	margin: 150px 0 0 550px;
 	height: 250px;
 	width: 250px;
-	background-color: Transparent;
+/*	background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
-    outline:none;
-    cursor: pointer;
+    outline:none;*/
+    cursor: crosshair;
 }
