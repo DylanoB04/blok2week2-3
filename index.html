@@ -6,11 +6,14 @@
 		<link rel="stylesheet" type="text/css" href="CSS/style.css">
 	</head>
 		<body>
-			<div>
-				<img src="images/stage.png" class="background" alt="background">
-				<!-- <button id="duck" onclick="duckClick()"></button> -->
-				<img src="images/duck.gif" id="duck" alt="duck" onclick="duckClick()">
-			</div>
+				<div>
+					<img src="images/stage.png" id="background" alt="background" onclick="missClick()">
+					<img src="images/duck.gif" id="duck" alt="duck" onclick="duckClick()">
+					<h1 id="titel">Duck Hunt</h1>
+				</div>
+				<button id="miss">Miss: 0</button>
+				<button id="hit">Hit: 0</button>
+				<button id="start" onclick="location.reload()">Start</button>
 			<script src='script.js'></script>
 		</body>
 </html>
